@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-         <h1>ChatChut</h1>
+         <h1>React Chat</h1>
           <div className="Main">
              {chat.map((payload,index)=>{
                   return <p key={index}>{payload.message} : <span>{username}</span></p>
